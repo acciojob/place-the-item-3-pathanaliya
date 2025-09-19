@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;              /* enable flexbox */
+  flex-direction: row;        /* arrange items in a row */
+  justify-content: space-evenly; /* evenly space items */
+  flex-wrap: wrap;            /* wrap items to next line if needed */
+}
